@@ -1,0 +1,1456 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 1440px;
+    max-width: 1440px;
+}
+
+/* Menu */
+
+.menubar {
+    position: fixed;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
+    z-index: 1;
+}
+
+.logo {
+    width: 37.01px;
+    height: 57px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+    display: block;
+    text-align: center;
+    margin: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+li:nth-child(1),
+li:nth-child(2),
+li:nth-child(3),
+li:nth-child(4) {
+    border-bottom: white 5px dotted;
+    transition: 0.5s;
+}
+
+li:nth-child(1):hover,
+li:nth-child(3):hover {
+    border-bottom: #000AEF 5px dotted;
+}
+
+li:nth-child(2):hover,
+li:nth-child(4):hover {
+    border-bottom: #0BD28D 5px dotted;
+}
+
+.socialmedia {
+    height: 18.44px;
+    margin-right: 150px;
+}
+
+.socialmedia img {
+    margin: 0 10px;
+    height: 30px;
+}
+
+/* About me */
+.aboutme {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    height: 900px;
+}
+
+.aboutme h1 {
+    position: absolute;
+    width: 458px;
+    height: 320px;
+    left: 150px;
+    top: 212px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 80px;
+    color: #111111;
+}
+
+.contactbtn {
+    position: absolute;
+    width: 159px;
+    height: 60px;
+    left: 150px;
+    top: 563px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #0BD28D;
+    border-radius: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid #0BD28D;
+}
+
+.contactbtn:hover {
+    background: white;
+    color: black;
+    border: 2px solid #0BD28D;
+}
+
+.gradient {
+    position: absolute;
+    width: 626px;
+    height: 626px;
+    left: 705px;
+    top: 303px;
+    background: radial-gradient(circle, rgba(11, 210, 141, 0.45) 0%, rgba(11, 210, 141, 0) 70%);
+}
+
+.img3ddiv {
+    position: absolute;
+    width: 582.72px;
+    height: 519.61px;
+    left: 705px;
+    top: 158px;
+    animation-name: img3ddivmove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes img3ddivmove {
+    0% {
+        top: 158px;
+    }
+
+    50% {
+        top: 190px;
+    }
+
+    100% {
+        top: 158px;
+    }
+}
+
+.img3ddivblur {
+    position: absolute;
+    width: 582.72px;
+    height: 519.61px;
+    left: 705px;
+    top: 224px;
+    opacity: 0.7;
+    filter: blur(50px);
+}
+
+/* Me */
+.me {
+    margin: 0 auto;
+    width: 1440px;
+    height: 500px;
+}
+
+.meBorder {
+    width: 745px;
+    height: 444px;
+    margin-left: 423px;
+    background: #FFFFFF;
+    border: 1px solid #0BD28D;
+    border-radius: 25px;
+}
+
+.meText {
+    margin-top: 91px;
+    margin-left: 202px;
+    width: 500px;
+    height: 261.44px;
+}
+
+.meText h2 {
+    width: 473px;
+    height: 33px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    color: #111111;
+}
+
+.meText p {
+    width: 500px;
+    height: 162px;
+    margin-top: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #717171;
+}
+
+.meSocial {
+    margin-top: 20px 0;
+}
+
+.meSocial a img {
+    height: 40px;
+}
+
+.meAvatar {
+    position: relative;
+    width: 302px;
+    height: 302px;
+    top: -375px;
+    margin-left: 272px;
+}
+
+/* Balls 1 */
+
+.firstBalls {
+    width: 1440px;
+    height: 300px;
+    margin-bottom: 150px;
+}
+
+.ball11 {
+    position: relative;
+    width: 66px;
+    left: 40px;
+    top: -70px;
+    transition: 4s;
+}
+
+.ball12 {
+    position: relative;
+    width: 140px;
+    left: 380px;
+    top: 250px;
+    transition: 4s;
+}
+
+.ball13 {
+    position: relative;
+    width: 81px;
+    left: 700px;
+    top: 150px;
+    transition: 4s;
+}
+
+.ball14 {
+    position: relative;
+    width: 78px;
+    left: 1000px;
+    top: 350px;
+    transition: 4s;
+}
+
+/* Experience */
+
+#exp {
+    height: 500px;
+    overflow: hidden;
+    transition: 2s;
+    opacity: 0;
+}
+
+.experience {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    margin: 0 auto 60px;
+}
+
+.experienceElements {
+    display: flex;
+    flex-direction: row;
+
+    width: 1440px;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    justify-content: space-around;
+}
+
+.experienceElement {
+    margin: 0 10vw;
+}
+
+
+.experienceElementP {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+/* Single ball */
+
+.singleBallSection {
+    display: flex;
+    margin: 50px auto 200px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.singleBall {
+    position: relative;
+    width: 123px;
+    height: 122.66px;
+
+}
+
+/* Projects */
+
+.projectsSection {
+    width: 1440px;
+    margin: 0 auto;
+    top: 2850px;
+}
+
+.projectsSection h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 64px;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 67px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 555px;
+    height: 346px;
+    margin-bottom: 101px;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.project img {
+    width: 555px;
+    height: 346px;
+}
+
+.project h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    color: #111111;
+
+}
+
+.project:hover {
+    transform: scale(1.01)
+}
+
+/* Balls 2 */
+
+.secondBalls {
+    position: absolute;
+    width: 1440px;
+    margin: 0 auto;
+    top: 3300px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.ball21 {
+    position: relative;
+    width: 66px;
+    left: 40px;
+    top: -70px;
+    transition: 4s;
+}
+
+.ball22 {
+    position: relative;
+    width: 139px;
+    left: 400px;
+    top: 250px;
+    transition: 4s;
+}
+
+.ball23 {
+    position: relative;
+    width: 81px;
+    left: 750px;
+    top: 150px;
+    transition: 4s;
+}
+
+.ball24 {
+    position: relative;
+    width: 78px;
+    left: 1000px;
+    top: 350px;
+    transition: 4s;
+}
+
+/* Contact */
+
+.contactSection {
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    top: 3850px;
+}
+
+.contactText {
+    width: 385px;
+    margin-left: 278px;
+    margin-right: 105px;
+}
+
+.contactText h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 64px;
+    color: #111111;
+}
+
+.contactText p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #111111;
+    opacity: 0.7;
+}
+
+.contactForm {
+    width: 394px;
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 278px;
+}
+
+input,
+textarea {
+    margin: 10px;
+    min-width: 394px;
+    max-width: 394px;
+    min-height: 60px;
+    max-height: 130px;
+    background: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #0BD28D;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #111111;
+}
+
+.formBtn {
+    margin: 10px;
+    width: 159px;
+    height: 60px;
+    background: #0BD28D;
+    border-radius: 25px;
+    border: 2px solid #0BD28D;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.formBtn:hover {
+    background: white;
+    color: black;
+    border: 2px solid #0BD28D;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+    top: 4230px;
+}
+
+footer .socialmedia {
+    margin: 10px auto;
+}
+
+footer p {
+    margin: 30px auto 18px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #111111;
+}
+
+@media (max-width:1460px) {
+    body {
+        width: 1280px;
+    }
+
+    /* Menu */
+
+    .menubar {
+        width: 1280px;
+        margin: 0 auto;
+        padding: 10px;
+        z-index: 1;
+    }
+
+    /* About me */
+    .aboutme {
+        width: 1280px;
+        margin: 0 auto;
+        height: 780px;
+    }
+
+    .aboutme h1 {
+        top: 180px;
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .contactbtn {
+        width: 159px;
+        height: 60px;
+        left: 150px;
+        top: 470px;
+    }
+
+    .gradient {
+        width: 525px;
+        height: 525px;
+        left: 705px;
+        top: 303px;
+    }
+
+    .img3ddiv {
+        width: 500px;
+        height: 440px;
+        left: 705px;
+        top: 140px;
+    }
+
+    @keyframes img3ddivmove {
+        0% {
+            top: 140px;
+        }
+
+        50% {
+            top: 170px;
+        }
+
+        100% {
+            top: 140px;
+        }
+    }
+
+    .img3ddivblur {
+        width: 500px;
+        height: 440px;
+        left: 705px;
+        top: 210px;
+        opacity: 0.7;
+        filter: blur(50px);
+    }
+
+    /* Me */
+    .me {
+        width: 1280px;
+        height: 500px;
+    }
+
+    .meBorder {
+        width: 745px;
+        height: 444px;
+        margin-left: 370px;
+    }
+
+    .meText {
+        margin-top: 91px;
+        margin-left: 202px;
+        width: 500px;
+        height: 261px;
+    }
+
+    .meText h2 {
+        width: 473px;
+        height: 33px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .meText p {
+        width: 500px;
+        height: 130px;
+        margin-top: 35px;
+        font-size: 18px;
+    }
+
+    .meSocial {
+        width: 140.38px;
+        height: 18.44px;
+        margin-top: 38px;
+        margin-left: 0;
+    }
+
+    .meSocial a {
+        margin: 5px;
+    }
+
+    .meAvatar {
+        position: relative;
+        width: 302px;
+        height: 302px;
+        top: -375px;
+        margin-left: 222px;
+    }
+
+    /* Balls 1 */
+
+    .firstBalls {
+        width: 1280px;
+        height: 300px;
+        margin-bottom: 150px;
+    }
+
+    .ball11 {
+        position: relative;
+        width: 66px;
+        left: 40px;
+        top: -70px;
+        transition: 4s;
+    }
+
+    .ball12 {
+        position: relative;
+        width: 140px;
+        left: 330px;
+        top: 250px;
+        transition: 4s;
+    }
+
+    .ball13 {
+        position: relative;
+        width: 81px;
+        left: 620px;
+        top: 150px;
+        transition: 4s;
+    }
+
+    .ball14 {
+        position: relative;
+        width: 78px;
+        left: 900px;
+        top: 350px;
+        transition: 4s;
+    }
+
+    /* Experience */
+
+    #exp {
+        height: 500px;
+        overflow: hidden;
+        transition: 2s;
+        opacity: 0;
+    }
+
+    .experience {
+        width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experienceTitle {
+        font-size: 55px;
+        margin: 0 auto 60px;
+    }
+
+    .experienceElements {
+        display: flex;
+        flex-direction: row;
+        width: 1280px;
+    }
+
+    /* Projects */
+
+    .projectsSection {
+        width: 1280px;
+    }
+
+    /* Balls 2 */
+
+    .secondBalls {
+        width: 1280px;
+        margin: 0 auto;
+        top: 3150px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+    .ball21 {
+        position: relative;
+        width: 66px;
+        left: 40px;
+        top: -70px;
+        transition: 4s;
+    }
+
+    .ball22 {
+        position: relative;
+        width: 140px;
+        left: 330px;
+        top: 250px;
+        transition: 4s;
+    }
+
+    .ball23 {
+        position: relative;
+        width: 81px;
+        left: 620px;
+        top: 150px;
+        transition: 4s;
+    }
+
+    .ball24 {
+        position: relative;
+        width: 78px;
+        left: 900px;
+        top: 350px;
+        transition: 4s;
+    }
+
+    /* Contact */
+
+    .contactSection {
+        width: 1280px;
+        top: 3660px;
+    }
+
+    .contactText {
+        width: 385px;
+        margin-left: 220px;
+        margin-right: 105px;
+    }
+
+
+
+    /* Footer */
+
+    footer {
+        width: 1280px;
+        top: 4030px;
+    }
+
+    footer .socialmedia {
+        margin: 10px auto;
+    }
+
+    footer p {
+        margin: 30px auto 18px;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #111111;
+    }
+}
+
+@media (max-width:1300px) {
+    body {
+        width: 1024px;
+    }
+
+    /* Menu */
+
+    .menubar {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 10px;
+        z-index: 1;
+    }
+
+    /* About me */
+    .aboutme {
+        width: 1024px;
+        margin: 0 auto;
+        height: 780px;
+    }
+
+    .aboutme h1 {
+        top: 180px;
+        width: 340px;
+        height: 248px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .contactbtn {
+        width: 159px;
+        height: 60px;
+        left: 150px;
+        top: 470px;
+    }
+
+    .gradient {
+        width: 525px;
+        height: 525px;
+        left: 465px;
+        top: 212px;
+    }
+
+    .img3ddiv {
+        width: 450px;
+        height: 390px;
+        left: 450px;
+        top: 10px;
+    }
+
+    @keyframes img3ddivmove {
+        0% {
+            top: 100px;
+        }
+
+        50% {
+            top: 130px;
+        }
+
+        100% {
+            top: 100px;
+        }
+    }
+
+    .img3ddivblur {
+        width: 450px;
+        height: 390px;
+        left: 440px;
+        top: 155px;
+    }
+
+    /* Me */
+    .me {
+        width: 1024px;
+        height: 500px;
+    }
+
+    .meBorder {
+        width: 700px;
+        height: 380px;
+        margin-left: 223px;
+    }
+
+    .meText {
+        margin-top: 55px;
+        margin-left: 190px;
+        width: 500px;
+        height: 261px;
+    }
+
+    .meAvatar {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        top: -320px;
+        margin-left: 100px;
+    }
+
+    /* Balls 1 */
+
+    .firstBalls {
+        width: 1024px;
+        height: 300px;
+        margin-bottom: 150px;
+    }
+
+    .ball11 {
+        position: relative;
+        width: 44px;
+        left: 40px;
+        top: -70px;
+        transition: 4s;
+    }
+
+    .ball12 {
+        position: relative;
+        width: 100px;
+        left: 270px;
+        top: 250px;
+        transition: 4s;
+    }
+
+    .ball13 {
+        position: relative;
+        width: 61px;
+        left: 470px;
+        top: 150px;
+        transition: 4s;
+    }
+
+    .ball14 {
+        position: relative;
+        width: 78px;
+        left: 680px;
+        top: 350px;
+        transition: 4s;
+    }
+
+    /* Experience */
+
+    #exp {
+        height: 500px;
+        overflow: hidden;
+        transition: 2s;
+        opacity: 0;
+    }
+
+    .experience {
+        width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experienceTitle {
+        font-size: 45px;
+        margin: 0 auto 60px;
+    }
+
+    .experienceElements {
+        display: flex;
+        flex-direction: row;
+        width: 1024px;
+    }
+
+
+    /* Projects */
+
+    .projectsSection {
+        width: 1024px;
+    }
+
+    .projectsSection h2 {
+        font-size: 45px;
+    }
+
+    .project {
+        width: 400px;
+        height: 230px;
+    }
+
+    .project img {
+        width: 400px;
+        height: 275px;
+    }
+
+
+    .project h3 {
+        font-size: 24px;
+        line-height: 33px;
+        color: #111111;
+
+    }
+
+    /* Balls 2 */
+
+    .secondBalls {
+        width: 1024px;
+        margin: 0 auto;
+        top: 3165px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+    .ball21 {
+        position: relative;
+        width: 66px;
+        left: 40px;
+        top: -70px;
+        transition: 4s;
+    }
+
+    .ball22 {
+        position: relative;
+        width: 100px;
+        left: 270px;
+        top: 250px;
+        transition: 4s;
+    }
+
+    .ball23 {
+        position: relative;
+        width: 61px;
+        left: 470px;
+        top: 150px;
+        transition: 4s;
+    }
+
+    .ball24 {
+        position: relative;
+        width: 78px;
+        left: 660px;
+        top: 350px;
+        transition: 4s;
+    }
+
+    /* Contact */
+
+    .contactSection {
+        width: 1024px;
+        top: 3650px;
+    }
+
+    .contactText {
+        width: 385px;
+        margin-left: 100px;
+        margin-right: 30px;
+    }
+
+    .contactText h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+
+    footer {
+        width: 1024px;
+        top: 4030px;
+    }
+
+    footer .socialmedia {
+        margin: 10px auto;
+    }
+
+    footer p {
+        margin: 30px auto 18px;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #111111;
+    }
+}
+
+@media (max-width:1000px) {
+    body {
+        width: 640px;
+    }
+
+    /* Menu */
+
+    .menubar {
+        width: 640px;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+
+    li {
+        font-size: 15px;
+    }
+
+    .socialmedia {
+        height: 26px;
+        margin-right: 10px;
+    }
+
+    /* About me */
+    .aboutme {
+        width: 640px;
+        margin: 0 auto;
+        height: 520px;
+    }
+
+    .aboutme h1 {
+        top: 140px;
+        left: 50px;
+        width: 340px;
+        height: 248px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .contactbtn {
+        width: 159px;
+        height: 60px;
+        left: 55px;
+        top: 390px;
+    }
+
+    .gradient {
+        width: 398px;
+        height: 475px;
+        left: 228px;
+        top: 54px;
+    }
+
+    .img3ddiv {
+        width: 276px;
+        height: 245px;
+        left: 312px;
+        top: 10px;
+    }
+
+    @keyframes img3ddivmove {
+        0% {
+            top: 100px;
+        }
+
+        50% {
+            top: 130px;
+        }
+
+        100% {
+            top: 100px;
+        }
+    }
+
+    .img3ddivblur {
+        width: 276px;
+        height: 245px;
+        left: 320px;
+        top: 175px;
+    }
+
+    /* Me */
+    .me {
+        width: 640px;
+        height: 320px;
+    }
+
+    .meBorder {
+        width: 445px;
+        height: 255px;
+        margin-left: 160px;
+    }
+
+    .meText {
+        margin-top: 15px;
+        margin-left: 90px;
+        width: 340px;
+        height: 220px;
+    }
+
+    .meText h2 {
+        margin-top: 20px;
+        width: 340px;
+        height: 33px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .meText p {
+        width: 340px;
+        height: 130px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .meAvatar {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        top: -200px;
+        margin-left: 85px;
+    }
+
+    .meSocial {
+        width: 140px;
+        height: 18px;
+        margin-top: 0px;
+        margin-left: 0;
+    }
+
+    /* Balls 1 */
+
+    .firstBalls {
+        width: 640px;
+        height: 300px;
+        margin-bottom: 150px;
+    }
+
+    .ball11 {
+        position: relative;
+        width: 44px;
+        left: 40px;
+        top: 161px;
+        transition: 4s;
+    }
+
+    .ball12 {
+        position: relative;
+        width: 100px;
+        left: 130px;
+        top: 100px;
+        transition: 4s;
+    }
+
+    .ball13 {
+        position: relative;
+        width: 61px;
+        left: 200px;
+        top: 200px;
+        transition: 4s;
+    }
+
+    .ball14 {
+        position: relative;
+        width: 78px;
+        left: 300px;
+        top: 150px;
+        transition: 4s;
+    }
+
+    /* Experience */
+
+    #exp {
+        height: 700px;
+        overflow: hidden;
+        transition: 2s;
+        opacity: 0;
+    }
+
+    .experience {
+        width: 640px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experienceTitle {
+        font-size: 45px;
+        margin: 0 auto 60px;
+    }
+
+    .experienceElements {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 640px;
+    }
+
+    /* Single ball */
+
+    .singleBallSection {
+
+        margin: 50px auto 90px;
+    }
+
+    /* Projects */
+
+    .projectsSection {
+        width: 640px;
+    }
+
+    .projectsSection h2 {
+        font-size: 45px;
+    }
+
+    .project {
+        width: 400px;
+        height: 230px;
+    }
+
+    .project img {
+        width: 400px;
+    }
+
+
+    .project h3 {
+        font-size: 24px;
+        line-height: 33px;
+        color: #111111;
+
+    }
+
+    /* Balls 2 */
+
+    .secondBalls {
+        width: 640px;
+        top: 3050px;
+    }
+
+    .ball21 {
+        position: relative;
+        width: 66px;
+        left: 40px;
+        top: 161px;
+        transition: 4s;
+    }
+
+    .ball22 {
+        position: relative;
+        width: 100px;
+        left: 130px;
+        top: 100px;
+        transition: 4s;
+    }
+
+    .ball23 {
+        position: relative;
+        width: 61px;
+        left: 200px;
+        top: 200px;
+        transition: 4s;
+    }
+
+    .ball24 {
+        position: relative;
+        width: 78px;
+        left: 300px;
+        top: 150px;
+        transition: 4s;
+    }
+
+    /* Contact */
+
+    .contactSection {
+        width: 640px;
+        top: 3440px;
+    }
+
+    .contactText {
+        width: 385px;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+
+    .contactText h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .contactText p {
+
+        font-size: 16px;
+    }
+
+    .contactForm form {
+        margin-right: 30px;
+    }
+
+    input,
+    textarea {
+        margin: 10px;
+        width: 320px;
+        height: 60px;
+        max-height: 110px;
+        background: #FFFFFF;
+        padding: 10px;
+        border: 1px solid #0BD28D;
+        box-sizing: border-box;
+        border-radius: 25px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #111111;
+    }
+
+    /* Footer */
+
+    footer {
+        width: 640px;
+        top: 3800px;
+    }
+
+    footer .socialmedia {
+        margin: 10px auto;
+    }
+
+    footer p {
+        margin: 30px auto 18px;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #111111;
+    }
+}

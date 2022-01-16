@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 1440px;
+    max-width: 1440px;
+}
+
+/* HEADER */
+
+.menubar {
+    position: fixed;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
+    z-index: 1;
+}
+
+.logo {
+    width: 37.01px;
+    height: 57px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.socialmedia {
+    height: 18.44px;
+    margin-right: 150px;
+}
+
+.socialmedia img {
+    margin: 0 10px;
+    height: 40px;
+}
+
+/* CONTENT */
+.content {
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.content h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+    align-items: center;
+}
+
+.description div {
+    width: 45%;
+    padding: 20px;
+    margin: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #717171;
+    background: #FFFFFF;
+    border: 1px solid #0BD28D;
+    border-radius: 25px;
+}
+
+.description div p {
+    position: relative;
+    text-align: center;
+}
+
+.description div p.teslaQRText {
+    top: 20%;
+}
+
+.description div p a {
+    color: #111111;
+}
+
+.description div img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+}
+
+.description img {
+    max-width: 45%;
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+@media (max-width:1460px) {
+    body {
+        width: 1280px;
+    }
+
+    /* HEADER */
+
+    .menubar {
+        width: 1280px;
+        margin: 0 auto;
+        padding: 10px;
+        z-index: 1;
+    }
+
+    /* CONTENT */
+
+    .description div img {
+        left: 46%;
+    }
+}
+
+@media (max-width:1300px) {
+    body {
+        width: 1024px;
+    }
+
+    /* HEADER */
+
+    .menubar {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 10px;
+        z-index: 1;
+    }
+
+}
+
+@media (max-width:1000px) {
+    body {
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .socialmedia {
+        margin-right: 0px;
+    }
+
+    /* HEADER */
+
+    .menubar {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        z-index: 1;
+    }
+
+    /* CONTENT */
+    .description {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .description div {
+        width: 90%;
+    }
+
+    .description img {
+        max-width: 90%;
+    }
+}
