@@ -15,10 +15,10 @@ $(document).ready(function () {
       $("html, body").animate({ scrollTop: "2530px" }, 1000);
     });
     $("#contact").click(function (event) {
-      $("html, body").animate({ scrollTop: "3710px" }, 1000);
+      $("html, body").animate({ scrollTop: "4000px" }, 1000);
     });
     $("#contactBtn").click(function (event) {
-      $("html, body").animate({ scrollTop: "3710px" }, 1000);
+      $("html, body").animate({ scrollTop: "4000px" }, 1000);
     });
     return;
   }
@@ -37,10 +37,10 @@ $(document).ready(function () {
       $("html, body").animate({ scrollTop: "2490px" }, 1000);
     });
     $("#contact").click(function (event) {
-      $("html, body").animate({ scrollTop: "3820px" }, 1000);
+      $("html, body").animate({ scrollTop: "4000px" }, 1000);
     });
     $("#contactBtn").click(function (event) {
-      $("html, body").animate({ scrollTop: "3820px" }, 1000);
+      $("html, body").animate({ scrollTop: "4000px" }, 1000);
     });
     return;
   }
@@ -81,10 +81,10 @@ $(document).ready(function () {
       $("html, body").animate({ scrollTop: "2100px" }, 1000);
     });
     $("#contact").click(function (event) {
-      $("html, body").animate({ scrollTop: "2800px" }, 1000);
+      $("html, body").animate({ scrollTop: "3500px" }, 1000);
     });
     $("#contactBtn").click(function (event) {
-      $("html, body").animate({ scrollTop: "2800px" }, 1000);
+      $("html, body").animate({ scrollTop: "3500px" }, 1000);
     });
     return;
   }

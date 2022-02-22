@@ -402,7 +402,7 @@ li:nth-child(4):hover {
     position: absolute;
     width: 1440px;
     margin: 0 auto;
-    top: 3300px;
+    top: 3720px;
     height: 300px;
     margin-bottom: 100px;
 }
@@ -446,7 +446,7 @@ li:nth-child(4):hover {
     display: flex;
     width: 1440px;
     margin: 0 auto;
-    top: 3850px;
+    top: 4270px;
 }
 
 .contactText {
@@ -538,7 +538,7 @@ footer {
     align-items: center;
     width: 1440px;
     margin: 0 auto;
-    top: 4230px;
+    top: 4650px;
 }
 
 footer .socialmedia {
@@ -758,7 +758,7 @@ footer p {
     .secondBalls {
         width: 1280px;
         margin: 0 auto;
-        top: 3150px;
+        top: 3570px;
         height: 300px;
         margin-bottom: 50px;
     }
@@ -799,7 +799,7 @@ footer p {
 
     .contactSection {
         width: 1280px;
-        top: 3660px;
+        top: 4080px;
     }
 
     .contactText {
@@ -814,7 +814,7 @@ footer p {
 
     footer {
         width: 1280px;
-        top: 4030px;
+        top: 4450px;
     }
 
     footer .socialmedia {
@@ -1033,7 +1033,7 @@ footer p {
     .secondBalls {
         width: 1024px;
         margin: 0 auto;
-        top: 3165px;
+        top: 3425px;
         height: 300px;
         margin-bottom: 50px;
     }
@@ -1074,7 +1074,7 @@ footer p {
 
     .contactSection {
         width: 1024px;
-        top: 3650px;
+        top: 3850px;
     }
 
     .contactText {
@@ -1092,7 +1092,7 @@ footer p {
 
     footer {
         width: 1024px;
-        top: 4030px;
+        top: 4230px;
     }
 
     footer .socialmedia {
@@ -1350,7 +1350,7 @@ footer p {
 
     .secondBalls {
         width: 640px;
-        top: 3050px;
+        top: 3350px;
     }
 
     .ball21 {
@@ -1389,7 +1389,7 @@ footer p {
 
     .contactSection {
         width: 640px;
-        top: 3440px;
+        top: 3740px;
     }
 
     .contactText {
@@ -1435,7 +1435,7 @@ footer p {
 
     footer {
         width: 640px;
-        top: 3800px;
+        top: 4100px;
     }
 
     footer .socialmedia {
