@@ -115,7 +115,7 @@ $(window).scroll(function () {
     // $("#exp").css("height", "500px");
     $("#exp").css("opacity", "1");
     $("#exHtml").LineProgressbar({
-      percentage: 80,
+      percentage: 75,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
@@ -123,7 +123,7 @@ $(window).scroll(function () {
     });
 
     $("#exCss").LineProgressbar({
-      percentage: 80,
+      percentage: 75,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
@@ -131,7 +131,7 @@ $(window).scroll(function () {
     });
 
     $("#exJS").LineProgressbar({
-      percentage: 50,
+      percentage: 30,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
@@ -139,7 +139,7 @@ $(window).scroll(function () {
     });
 
     $("#exJQ").LineProgressbar({
-      percentage: 50,
+      percentage: 25,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
@@ -147,14 +147,14 @@ $(window).scroll(function () {
     });
 
     $("#exReact").LineProgressbar({
-      percentage: 50,
+      percentage: 20,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
       height: "18px",
     });
     $("#exGIT").LineProgressbar({
-      percentage: 50,
+      percentage: 30,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
@@ -165,7 +165,7 @@ $(window).scroll(function () {
     // $("#exp").css("height", "500px");
     $("#exp").css("opacity", "1");
     $("#exHtml").LineProgressbar({
-      percentage: 80,
+      percentage: 75,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
@@ -173,7 +173,7 @@ $(window).scroll(function () {
     });
 
     $("#exCss").LineProgressbar({
-      percentage: 80,
+      percentage: 75,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
@@ -181,28 +181,28 @@ $(window).scroll(function () {
     });
 
     $("#exJS").LineProgressbar({
-      percentage: 50,
+      percentage: 30,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
       height: "18px",
     });
     $("#exJQ").LineProgressbar({
-      percentage: 50,
+      percentage: 25,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
       height: "18px",
     });
     $("#exReact").LineProgressbar({
-      percentage: 50,
+      percentage: 20,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
       height: "18px",
     });
     $("#exGIT").LineProgressbar({
-      percentage: 50,
+      percentage: 30,
       fillBackgroundColor: "#0BD28D",
       backgroundColor: "#EEEEEE",
       radius: "100px",
