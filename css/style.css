@@ -487,7 +487,7 @@ li:nth-child(4):hover {
 input,
 textarea {
   margin: 10px;
-  min-width: 394px;
+  width: 394px;
   max-width: 394px;
   min-height: 60px;
   max-height: 130px;
