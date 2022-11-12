@@ -1,181 +1,215 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=100%">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/jquery.lineProgressbar.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=100%" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/jquery.lineProgressbar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
     <title>Piosso</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- TOP MENU -->
 
     <section class="menubar">
-        <img src="img/Logo.png" alt="" class="logo" id="logo">
-        <div class="menu">
-            <ul>
-                <li id="aboutMe">O mnie</li>
-                <li id="experience">Umiejętności</li>
-                <li id="projects">Projekty</li>
-                <li id="contact">Kontakt</li>
-            </ul>
-        </div>
-        <div class="socialmedia">
-            <a href="https://github.com/piosso7"><img src="img/GitHub.png" alt=""></a>
-        </div>
+      <img src="img/Logo.png" alt="" class="logo" id="logo" />
+      <div class="menu">
+        <ul>
+          <li id="aboutMe">O mnie</li>
+          <li id="experience">Umiejętności</li>
+          <li id="projects">Projekty</li>
+          <li id="contact">Kontakt</li>
+        </ul>
+      </div>
+      <div class="socialmedia">
+        <a href="https://github.com/piosso7"
+          ><img src="img/GitHub.png" alt=""
+        /></a>
+      </div>
     </section>
 
     <!-- BANNER -->
 
     <section class="aboutme">
-        <h1>Front end <br>z pasją do nowoczesnych technologii</h1>
-        <button class="contactbtn" id="contactBtn">Kontakt</button>
-        <div class="gradient"></div>
-        <img src="img/3D wireframe model.png" alt="" class="img3ddivblur">
-        <img src="img/3D wireframe model.png" alt="" class="img3ddiv">
+      <h1>Front end <br />z pasją do nowoczesnych technologii</h1>
+      <button class="contactbtn" id="contactBtn">Kontakt</button>
+      <div class="gradient"></div>
+      <img src="img/3D wireframe model.png" alt="" class="img3ddivblur" />
+      <img src="img/3D wireframe model.png" alt="" class="img3ddiv" />
     </section>
 
     <!-- ABOUT ME AVATAR + TEXT -->
     <section class="me">
-        <div class="meBorder">
-            <div class="meText">
-                <h2>Cześć! Jestem Piotrek!</h2>
-                <p>Od najmłodszych lat moją pasją są nowoczesne technologie. <br> Świat IT zawsze był mi bliski, jednak
-                    dopiero od
-                    niedawna postanowiłem rozwinąć tę gałąź swoich zainteresowań. Postawiłem na front end. Okazało się,
-                    że programowanie zupełnie mnie wciągnęło i jest tym, co chcę robić w życiu.</p>
-                <div class="meSocial"><a href="https://github.com/piosso7"><img src="img/GitHub.png" alt=""></a></div>
-            </div>
+      <div class="meBorder">
+        <div class="meText">
+          <h2>Cześć! Jestem Piotrek!</h2>
+          <p>
+            Od najmłodszych lat moją pasją są nowoczesne technologie. <br />
+            Świat IT zawsze był mi bliski, jednak dopiero od niedawna
+            postanowiłem rozwinąć tę gałąź swoich zainteresowań. Postawiłem na
+            front end. Okazało się, że programowanie zupełnie mnie wciągnęło i
+            jest tym, co chcę robić w życiu.
+          </p>
+          <div class="meSocial">
+            <a href="https://github.com/piosso7"
+              ><img src="img/GitHub.png" alt=""
+            /></a>
+          </div>
         </div>
-        <img src="img/Avatar.png" alt="" class="meAvatar">
+      </div>
+      <img src="img/Avatar.png" alt="" class="meAvatar" />
     </section>
 
     <!-- 1ST BALLS -->
 
     <section class="firstBalls">
-        <img src="img/Zielona Kulka.png" alt="" class="ball11">
-        <img src="img/Niebieska Kulka.png" alt="" class="ball12">
-        <img src="img/Zielona Kulka.png" alt="" class="ball13">
-        <img src="img/Niebieska Kulka.png" alt="" class="ball14">
+      <img src="img/Zielona Kulka.png" alt="" class="ball11" />
+      <img src="img/Niebieska Kulka.png" alt="" class="ball12" />
+      <img src="img/Zielona Kulka.png" alt="" class="ball13" />
+      <img src="img/Niebieska Kulka.png" alt="" class="ball14" />
     </section>
 
     <!-- EXPERIENCE -->
 
     <section id="exp" class="experience">
-        <p class="experienceTitle">Umiejętności</p>
-        <div class="experienceElements">
-            <div class=".experienceElement">
-                <p class="experienceElementP">HTML</p>
-                <div id="exHtml"></div>
-            </div>
-            <div class=".experienceElement">
-                <p class="experienceElementP">CSS</p>
-                <div id="exCss"></div>
-            </div>
-            <div class=".experienceElement">
-                <p class="experienceElementP">jQuery</p>
-                <div id="exJQ"></div>
-            </div>
-            <div class=".experienceElement">
-                <p class="experienceElementP">JavaScript</p>
-                <div id="exJS"></div>
-            </div>
-            <div class=".experienceElement">
-                <p class="experienceElementP">React</p>
-                <div id="exReact"></div>
-            </div>
-            <div class=".experienceElement">
-                <p class="experienceElementP">GIT</p>
-                <div id="exGIT"></div>
-            </div>
+      <p class="experienceTitle">Umiejętności</p>
+      <div class="experienceElements">
+        <div class=".experienceElement">
+          <p class="experienceElementP">HTML</p>
+          <div id="exHtml"></div>
         </div>
+        <div class=".experienceElement">
+          <p class="experienceElementP">CSS</p>
+          <div id="exCss"></div>
+        </div>
+        <div class=".experienceElement">
+          <p class="experienceElementP">jQuery</p>
+          <div id="exJQ"></div>
+        </div>
+        <div class=".experienceElement">
+          <p class="experienceElementP">JavaScript</p>
+          <div id="exJS"></div>
+        </div>
+        <div class=".experienceElement">
+          <p class="experienceElementP">React</p>
+          <div id="exReact"></div>
+        </div>
+        <div class=".experienceElement">
+          <p class="experienceElementP">GIT</p>
+          <div id="exGIT"></div>
+        </div>
+      </div>
     </section>
 
     <!-- SINGLE BALL -->
 
     <section class="singleBallSection">
-        <img class="singleBall" src="img/Niebieska Kulka.png" alt="">
+      <img class="singleBall" src="img/Niebieska Kulka.png" alt="" />
     </section>
 
     <!-- PROJECTS -->
 
     <section class="projectsSection">
-        <h2>Projekty</h2>
-        <div class="projects">
-            <div class="project">
-                <a href="https://piosso7.github.io/Pantera/"><img src="img/PanteraMockup.png" alt=""></a>
-                <h3>Pantera - in progress</h3>
-            </div>
-            <div class="project">
-                <a href="./projectCoffee.html"><img src="img/coffeeMockup.png" alt=""></a>
-                <h3>Coffee</h3>
-            </div>
-            <div class="project">
-                <a href="./projectBee.html"><img src="img/beeMockup.png" alt=""></a>
-                <h3>Bee</h3>
-            </div>
-            <div class="project">
-                <a href="./projectTesla.html"><img src="img/teslaMockup.png" alt=""></a>
-                <h3>Tesla</h3>
-            </div>
-
+      <h2>Projekty</h2>
+      <div class="projects">
+        <div class="project">
+          <a href="./projectPantera.html"
+            ><img src="img/PanteraMockup.png" alt=""
+          /></a>
+          <h3>Pantera - in progress</h3>
         </div>
+        <div class="project">
+          <a href="./projectCoffee.html"
+            ><img src="img/coffeeMockup.png" alt=""
+          /></a>
+          <h3>Coffee</h3>
+        </div>
+        <div class="project">
+          <a href="./projectBee.html"><img src="img/beeMockup.png" alt="" /></a>
+          <h3>Bee</h3>
+        </div>
+        <div class="project">
+          <a href="./projectTesla.html"
+            ><img src="img/teslaMockup.png" alt=""
+          /></a>
+          <h3>Tesla</h3>
+        </div>
+      </div>
     </section>
 
     <!-- 2ND BALLS -->
 
     <section class="secondBalls">
-        <img src="img/Niebieska Kulka.png" alt="" class="ball21">
-        <img src="img/Zielona Kulka.png" alt="" class="ball22">
-        <img src="img/Niebieska Kulka.png" alt="" class="ball23">
-        <img src="img/Zielona Kulka.png" alt="" class="ball24">
+      <img src="img/Niebieska Kulka.png" alt="" class="ball21" />
+      <img src="img/Zielona Kulka.png" alt="" class="ball22" />
+      <img src="img/Niebieska Kulka.png" alt="" class="ball23" />
+      <img src="img/Zielona Kulka.png" alt="" class="ball24" />
     </section>
 
     <!-- CONTACT -->
 
     <section class="contactSection">
-        <div class="contactText">
-            <h2>Kontakt</h2>
-            <br>
-            <p>Jeśli zainteresowała Cię moja osoba, któryś z projektów lub po prostu masz jakieś pytanie, pisz śmiało.
-                Postaram się odpisać jak najszybciej.</p>
-        </div>
-        <div class="contactForm">
-            <form action="https://formsubmit.co/piosso07@gmail.com" method="POST">
-                <input type="hidden" name="_next" value="https://piosso7.github.io/piosso/emailSend.html">
-                <input type="text" id="name" name="name" placeholder="Twoje imię">
-                <input type="email" id="email" name="email" placeholder="Twój e-mail">
-                <textarea type="text" id="message" name="message"
-                    placeholder="Wpisz swoją wiadomość tutaj..."></textarea>
-                <button class="formBtn" type="submit">Wyślij</button>
-            </form>
-        </div>
+      <div class="contactText">
+        <h2>Kontakt</h2>
+        <br />
+        <p>
+          Jeśli zainteresowała Cię moja osoba, któryś z projektów lub po prostu
+          masz jakieś pytanie, pisz śmiało. Postaram się odpisać jak
+          najszybciej.
+        </p>
+      </div>
+      <div class="contactForm">
+        <form action="https://formsubmit.co/piosso07@gmail.com" method="POST">
+          <input
+            type="hidden"
+            name="_next"
+            value="https://piosso7.github.io/piosso/emailSend.html"
+          />
+          <input type="text" id="name" name="name" placeholder="Twoje imię" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Twój e-mail"
+          />
+          <textarea
+            type="text"
+            id="message"
+            name="message"
+            placeholder="Wpisz swoją wiadomość tutaj..."
+          ></textarea>
+          <button class="formBtn" type="submit">Wyślij</button>
+        </form>
+      </div>
     </section>
     <footer>
+      <!-- SOCIAL MEDIA -->
 
-        <!-- SOCIAL MEDIA -->
-
-        <div class="socialmedia">
-            <a href="https://github.com/piosso7"><img src="img/GitHub.png" alt=""></a>
-        </div>
-        <p>© 2022 Piosso</p>
+      <div class="socialmedia">
+        <a href="https://github.com/piosso7"
+          ><img src="img/GitHub.png" alt=""
+        /></a>
+      </div>
+      <p>© 2022 Piosso</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/ballsone.js"></script>
     <script src="js/ballstwo.js"></script>
     <script src="js/jquery.lineProgressbar.js"></script>
     <script src="js/singleBall.js"></script>
     <script src="js/scroll.js"></script>
-</body>
-
+  </body>
 </html>
